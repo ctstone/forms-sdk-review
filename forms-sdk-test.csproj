@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Source\azure-sdk-for-net\sdk\formrecognizer\Azure.AI.FormRecognizer\src\Azure.AI.FormRecognizer.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.BCL.AsyncInterfaces" Version="1.1.0" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>forms_sdk_test</RootNamespace>
+  </PropertyGroup>
+
+</Project>
