@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\Source\azure-sdk-for-net\sdk\formrecognizer\Azure.AI.FormRecognizer\src\Azure.AI.FormRecognizer.csproj" />
+    <ProjectReference Include="../azure-sdk-for-net/sdk/formrecognizer/Azure.AI.FormRecognizer/src/Azure.AI.FormRecognizer.csproj" />
   </ItemGroup>
 
   <ItemGroup>
